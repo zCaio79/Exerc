@@ -1,11 +1,12 @@
-#calculadora imc /by Caio
+#Calculadora IMC /by Caio
 
-print("Calculadora MMC")
+print("Calculadora IMC")
 peso = float(input('Digite seu Peso : '))
 altura = float(input('Digite sua Altura : '))
 resp = peso / altura**2
 print("IMC %.2f"%resp)
 
+#Classificação
 if resp<16.9:
     print("Muito Abaixo do Peso")
 elif (resp>=17 and resp<=18.4):
