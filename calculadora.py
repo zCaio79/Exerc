@@ -24,11 +24,12 @@ while cont == 0:
             num = float(input("Digite um Número: "))
             conta = conta / num
         case default:
-            print("Operador Inválido")
+            print("Operador Inválido Tente Novamente")
+    
     result = conta
-    print(result)
     print("Deseja Continuar a Conta ?")
-    op = str(input("Digite:\tN p/ Finalizar\tQualquer outra p/ Continuar "))
+    op = str(input("Digite N p/ Finalizar OU qualquer outra letra p/ Continuar : "))
+    
     if ((op == "N") or (op == "n")):
         cont = 1
     else:
@@ -36,4 +37,3 @@ while cont == 0:
         
 os.system('cls')
 print("Resultado da conta =  ",result)
-
