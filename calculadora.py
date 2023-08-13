@@ -1,4 +1,5 @@
 import os
+#Declarações
 os.system('cls')
 cont = 0
 conta = 0.0
@@ -6,6 +7,7 @@ result = 0.0
 num = float(input("Digite um Número: "))
 
 conta = num
+#Looping para Operações
 while cont == 0:
    
     ope = str(input("Digite um Operador: "))
@@ -30,7 +32,7 @@ while cont == 0:
     print("Resultado atual: ",result)
     print("Deseja Continuar a Conta ?")
     op = str(input("Digite N p/ Finalizar OU qualquer outra letra p/ Continuar : "))
-    
+    #Segmento de opção
     if ((op == "N") or (op == "n")):
         cont = 1
     else:
