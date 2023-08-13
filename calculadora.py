@@ -27,6 +27,7 @@ while cont == 0:
             print("Operador Inválido Tente Novamente")
     
     result = conta
+    print("Resultado atual: ",result)
     print("Deseja Continuar a Conta ?")
     op = str(input("Digite N p/ Finalizar OU qualquer outra letra p/ Continuar : "))
     
