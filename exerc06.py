@@ -1,6 +1,6 @@
 import os
 import time
-
+#Média das Notas /by Caio
 nome = [2]
 nota = [2]
 cont = 0
