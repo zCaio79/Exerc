@@ -1,3 +1,4 @@
+# Code by Caio Henrique
 import sys
 import PySide6
 from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QMessageBox
