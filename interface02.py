@@ -22,7 +22,7 @@ def enviar_info():
 #Cria a Janela, ponha titulo e muda a cor do fundo
 app = QApplication(sys.argv)
 janela = QMainWindow()
-janela.setWindowTitle("Enviar Mensagem")
+janela.setWindowTitle("by Caio - Mensagem")
 janela.setStyleSheet("background-color: black;")
 
 #Cria a label para indicar a caixa Nome:
