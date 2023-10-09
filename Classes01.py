@@ -59,6 +59,7 @@ while (i==0):
             os.system('cls')
             conta = ContarBancaria(nome)
             print("\n\tCadastro realizado com Sucesso!")
+            time.sleep(3)
             cont = cont+1
         else:
             os.system('cls')
