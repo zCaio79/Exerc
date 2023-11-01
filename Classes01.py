@@ -3,6 +3,7 @@ import time
 
 class ContarBancaria:
     saldo = 0
+    
     def __init__(self,titular):
         self.titular = str(titular)
 
